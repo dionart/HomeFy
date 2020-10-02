@@ -1,0 +1,48 @@
+@import '../../mixin.scss';
+
+.overall{
+  height: 75vh;
+  background: url('../../images/bground.jpg') no-repeat 0px bottom;
+  .Navbar{
+    background: transparent !important;
+  }
+  
+  .container-logo{
+    display: flex;
+    width: 50%;
+    padding-left: 115px;
+    justify-content: center;
+    img{
+      align-self: center;
+      width: 130px;
+    }
+  }
+  
+  .container-h1{
+    display:flex;
+    padding:0 0 200px 150px;
+    width: 50%;
+    
+    h1{
+      color:#fff;
+      font-size: 70px !important;
+      font-weight: 600;
+      align-self: flex-end;
+    }
+  }
+
+  .container-form{
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    
+    .form{
+      background-color: rgba(255, 255, 255, 0.616);
+      margin-right: 70px;
+      padding: 30px;
+      width:40%;
+    }
+    
+  }
+}

@@ -1,0 +1,64 @@
+@import '../../mixin.scss';
+
+.main{
+    background-color: #f8f9fa;
+    height:100vh;
+    .text{
+        display: flex;
+        justify-content: center;
+        padding-top:45px;
+        
+        h4{
+            font-size: 32px;
+            color:rgb(95, 95, 95);
+            font-weight: 700;
+        }
+
+    }
+
+    .row{
+        display:flex;
+        justify-content: center;
+        .badge{
+            margin:5px 0 0 5px;
+            padding:8px;
+            position: absolute;
+            
+        }
+    
+        .first{
+            margin-right: 45px;
+            background-color: white;
+            
+        }
+        .middle{
+            margin-right: 55px;
+            background-color: white;
+            margin-left: 25px;
+        }
+        .last{
+            background-color: white;
+        }
+
+        img{
+            
+            height: 250px;
+            width:350px;
+        }
+        p{  
+            margin: 0;
+            letter-spacing: -1px;
+            font-size: 22px;
+            font-weight: 400;
+            text-align: start;
+            color:rgb(95,95,95)
+        }
+        a{
+            color:rgb(145, 145, 145) !important;
+        }
+        b{
+            color:rgb(101, 150, 73) !important;
+        }
+        
+    }
+}
